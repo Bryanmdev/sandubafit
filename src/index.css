@@ -264,7 +264,17 @@ ul {
   padding: 60px 0;
   color: var(--text-muted);
   font-size: 0.85rem;
-  opacity: 0.5;
+  opacity: 0.6;
+}
+
+.main-footer a {
+  transition: var(--transition);
+  display: inline-block;
+}
+
+.main-footer a:hover {
+  transform: translateY(-2px);
+  color: var(--secondary) !important;
 }
 
 @media (max-width: 400px) {

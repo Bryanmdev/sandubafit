@@ -51,6 +51,9 @@ function App() {
           />
           <footer className="main-footer">
             <p>&copy; 2024 Sanduba Fit. Qualidade Premium.</p>
+            <p style={{ marginTop: '10px' }}>
+              Desenvolvido por <a href="https://portfolio-bryandev.vercel.app/pt" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary)', fontWeight: '600', opacity: 1 }}>Bryan M</a>
+            </p>
           </footer>
         </motion.div>
       )}
