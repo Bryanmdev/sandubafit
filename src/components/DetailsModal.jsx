@@ -8,7 +8,7 @@ const DetailsModal = ({ isOpen, onClose }) => {
   return (
     <AnimatePresence>
       <div className="modal-overlay" onClick={onClose}>
-        <motion.div 
+        <motion.div
           className="modal-content"
           initial={{ y: "100%" }}
           animate={{ y: 0 }}
@@ -26,12 +26,12 @@ const DetailsModal = ({ isOpen, onClose }) => {
               <div className="info-item">
                 <Flame className="icon" />
                 <span className="info-label">Calorias</span>
-                <span className="info-value">280 kcal</span>
+                <span className="info-value">300 a 350 kcal</span>
               </div>
               <div className="info-item">
                 <Target className="icon" />
                 <span className="info-label">Proteínas</span>
-                <span className="info-value">24g</span>
+                <span className="info-value">~24g (por sanduba)</span>
               </div>
               <div className="info-item">
                 <Zap className="icon" />
@@ -42,15 +42,16 @@ const DetailsModal = ({ isOpen, onClose }) => {
 
             <div className="details-section">
               <h3><UtensilsCrossed size={18} /> Ingredientes Selecionados</h3>
-              <p>Pão integral artesanal, peito de frango desfiado temperado com ervas finas, maionese de iogurte natural, alface americana crocante e tomates selecionados.</p>
+              <p>Pão integral (36%), filé de frango desfiado, requeijão light, milho verde e cenoura ralada.</p>
             </div>
 
             <div className="details-section">
               <h3>✨ Benefícios</h3>
               <ul className="benefits-list">
-                <li>Sem conservantes artificiais</li>
-                <li>Energia de longa duração</li>
-                <li>Ideal para o pós-treino ou lanche rápido</li>
+                <li>Prático e ideal para o dia a dia</li>
+                <li>Satisfaz a fome sem pesar</li>
+                <li>Baixo custo para uma refeição completa e saudável</li>
+                <li>Opção mais leve comparada a lanches tradicionais</li>
                 <li>Sabor de verdade, sem culpa!</li>
               </ul>
             </div>
